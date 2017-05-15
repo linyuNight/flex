@@ -1,0 +1,38 @@
+.contain{
+	width:400px;
+	height:300px;
+	border:1px solid #000;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/*flex-wrap: nowrap;*/
+	justify-content: center;
+	align-content: space-around;
+	/*align-items: stretch;*/
+}
+.contain div{
+	margin:10px;
+	width:100px;
+	height:20px;
+	background:#ccc;
+	color:red;
+}
+
+.contain2{
+	width:400px;
+	height:400px;
+	border:1px solid #000;
+	display: flex;
+	flex-direction: column;
+	/*flex-wrap: wrap;*/
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	/*align-content: space-around;*/
+	align-items: center;
+}
+.contain2 div{
+	width:100px;
+	height:20px;
+	background:#ccc;
+	color:red;
+}
